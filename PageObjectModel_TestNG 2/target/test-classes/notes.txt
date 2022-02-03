@@ -1,0 +1,7 @@
+Requirements:
+
+1. we are logging in into the webpage by sending username and password.
+2. verify login by using assert.
+3. log out from the page and verify we are back to the login page.
+4. using OOP concept and selenium with TestNg
+
