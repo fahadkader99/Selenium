@@ -1,0 +1,7 @@
+
+
+
+# Common exception:
+1. IO exception
+2. Null pointer exception
+3. No such Element Exceptions

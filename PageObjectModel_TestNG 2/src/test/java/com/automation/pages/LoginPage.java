@@ -1,36 +1,29 @@
 package com.automation.pages;
 
+import com.automation.utils.PropertyReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class LoginPage {
-    @FindBy(id="user-name")
+public class LoginPage extends BasePage {
+    @FindBy(id= "user-name")
     WebElement login;
 
-    @FindBy(id="password")
+    @FindBy(id= "password")
     WebElement password;
 
-    @FindBy(id="login-button")
+    @FindBy(id= "login-button")
     WebElement loginBtn;
 
 
 
 
-    WebDriver driver;
-
-    public LoginPage(WebDriver driver){
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-
-    }
-
     public void doLogin(){
        // all the action will be here and the elements will be at the top
-        login.sendKeys("standard_user");
-        password.sendKeys("secret_sauce");
+        login.sendKeys(PropertyReader.getProperty("login.username"));
+        password.sendKeys(PropertyReader.getProperty("login.password"));
         loginBtn.click();
 
     }

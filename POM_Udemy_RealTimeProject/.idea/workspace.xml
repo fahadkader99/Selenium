@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="678fe37f-466a-4f2c-8c28-31eef5302608" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../POM_Udemy/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POM_Udemy/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POM_Udemy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POM_Udemy/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POM_Udemy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POM_Udemy/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POM_Udemy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POM_Udemy/src/test/java/com/udemy/objectrepository/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POM_Udemy/src/test/java/com/udemy/objectrepository/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POM_Udemy/src/test/java/com/udemy/testcases/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POM_Udemy/src/test/resources/driver/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POM_Udemy/src/test/resources/driver/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POM_Udemy/src/test/resources/driver/msedgedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/pages/LandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/test/landingPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/utils/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/driver/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/driver/geckodriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/driver/msedgedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/utils/DriverUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/utils/PropertyReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/resources/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/target/test-classes/com/automation/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/target/test-classes/com/automation/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/target/test-classes/com/automation/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/target/test-classes/com/automation/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/target/test-classes/com/automation/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/target/test-classes/com/automation/tests/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObjectWithTestNG 2/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24g8VEi1kRf8BBqv2QecAuoEVaY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/config" />
+      <recent name="$PROJECT_DIR$/src/main/com.udemy/utils" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="landingPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="POM_Udemy_RealTimeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udemy.test" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.test.landingPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.landingPageTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="678fe37f-466a-4f2c-8c28-31eef5302608" name="Changes" comment="" />
+      <created>1644040891862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644040891862</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

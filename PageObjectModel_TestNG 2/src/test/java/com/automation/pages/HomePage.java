@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class HomePage {
+public class HomePage extends BasePage{
 
     @FindBy(className = "app_logo")
     WebElement homePageLogo;
@@ -20,16 +20,6 @@ public class HomePage {
     @FindBy(xpath = "//a[@id='logout_sidebar_link']")
     WebElement logoutLink;
 
-
-
-
-    WebDriver driver;
-
-    public HomePage(WebDriver driver){
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
-
-    }
 
     public void verifyHomePageAfterLogin(){
         // verifying after login - we are at the homepage
