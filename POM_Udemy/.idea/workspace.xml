@@ -6,6 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="afe044dc-fc48-403c-958f-65366799f2a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM_Udemy_RealTimeProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../POM_Udemy_RealTimeProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM_Udemy_RealTimeProject/src/test/java/com/udemy/test/landingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POM_Udemy_RealTimeProject/src/test/java/com/udemy/test/landingPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/src/test/resources/driver/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/src/test/resources/driver/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/src/test/resources/driver/msedgedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/src/test/resources/notes.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

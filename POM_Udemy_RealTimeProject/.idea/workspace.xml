@@ -5,47 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="678fe37f-466a-4f2c-8c28-31eef5302608" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../POM_Udemy/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POM_Udemy/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POM_Udemy/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POM_Udemy/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POM_Udemy/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POM_Udemy/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POM_Udemy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POM_Udemy/src/test/java/com/udemy/objectrepository/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POM_Udemy/src/test/java/com/udemy/objectrepository/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POM_Udemy/src/test/java/com/udemy/testcases/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POM_Udemy/src/test/resources/driver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POM_Udemy/src/test/resources/driver/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POM_Udemy/src/test/resources/driver/msedgedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/pages/LandingPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/test/landingPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/udemy/utils/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config/data.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/driver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/driver/geckodriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/driver/msedgedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/utils/DriverUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/utils/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/resources/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POM_Udemy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../POM_Udemy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/test/landingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/test/landingPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/target/test-classes/com/automation/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/target/test-classes/com/automation/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/target/test-classes/com/automation/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/target/test-classes/com/automation/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/target/test-classes/com/automation/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/target/test-classes/com/automation/tests/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObjectWithTestNG 2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/src/test/resources/driver/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/src/test/resources/driver/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/src/test/resources/driver/msedgedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/src/test/resources/notes.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

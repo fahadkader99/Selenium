@@ -27,12 +27,12 @@ public class landingPageTest extends Base {
 
     }
 
-    @DataProvider
-    public void getData(){
-        Object[][] data = new Object[1][2];
-        // [r]row is for how many data types test should run
-        // [c]colum is for how many values we are sending per test
-
-    }
+//    @DataProvider
+//    public void getData(){
+//        Object[][] data = new Object[1][2];
+//        // [r]row is for how many data types test should run
+//        // [c]colum is for how many values we are sending per test
+//
+//    }
 
 }
