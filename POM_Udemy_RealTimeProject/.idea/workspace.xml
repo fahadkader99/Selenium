@@ -5,20 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="678fe37f-466a-4f2c-8c28-31eef5302608" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/java/com/automation/pages/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/java/com/automation/pages/ConfirmationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/java/com/automation/pages/OverviewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/java/com/automation/test/CheckoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/java/com/automation/test/ConfirmationPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/java/com/automation/test/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/java/com/automation/test/OverviewPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/resources/config/Log4j.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../POM_Udemy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../POM_Udemy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/udemy/test/landingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/test/landingPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PageObjectModel_TestNG 2/src/test/java/com/automation/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/src/test/resources/driver/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/src/test/resources/driver/geckodriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/src/test/resources/driver/msedgedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SauceDemo_EndToEnd/src/test/resources/notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework1/src/test/resources/runner/SmokeTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework1/src/test/resources/runner/SmokeTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework1/target/test-classes/runner/SmokeTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework1/target/test-classes/runner/SmokeTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/java/com/automation/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/java/com/automation/pages/CartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/java/com/automation/test/Base_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/java/com/automation/test/Base_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/java/com/automation/test/BikeLightPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/java/com/automation/test/BikeLightPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/java/com/automation/utils/DriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/java/com/automation/utils/DriverUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/resources/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/resources/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/resources/runner/SmokeRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/src/test/resources/runner/SmokeRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/target/test-classes/com/automation/pages/CartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/target/test-classes/com/automation/pages/CartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/target/test-classes/com/automation/test/Base_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/target/test-classes/com/automation/test/Base_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/target/test-classes/com/automation/test/BikeLightPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/target/test-classes/com/automation/test/BikeLightPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/target/test-classes/com/automation/utils/DriverUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/target/test-classes/com/automation/utils/DriverUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/target/test-classes/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/target/test-classes/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/target/test-classes/runner/SmokeRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SauceDemo_TestNG_UI_Framework2/target/test-classes/runner/SmokeRunner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

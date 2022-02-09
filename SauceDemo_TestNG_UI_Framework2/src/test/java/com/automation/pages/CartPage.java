@@ -17,6 +17,9 @@ public class CartPage extends Base_Page{
     @FindBy(id = "continue-shopping")
     WebElement continueShoppingBtn;
 
+    @FindBy(id = "checkout")
+    WebElement checkoutBtn;
+
     @FindBy(xpath = "//div[@class='cart_item']")
     List<WebElement> listOfCartItems;
 
@@ -39,6 +42,10 @@ public class CartPage extends Base_Page{
         Assert.assertEquals(actualSize,expectedSize,"Cart Items are not matching up at the final cart page. ");
 
 
+    }
+
+    public void clickOnCheckOutButton(){
+        checkoutBtn.click();
     }
 
 
