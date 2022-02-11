@@ -18,7 +18,6 @@ Home-Assignment
 15. Fill checkout details & click on Continue
 16. Verify Overview Page
 17.  Click on finish
-
 18. Verify order confirmation page
 
 

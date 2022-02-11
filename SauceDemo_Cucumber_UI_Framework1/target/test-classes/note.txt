@@ -1,0 +1,72 @@
+TestNG_FrameWork2_Assignment
+Home-Assignment
+
+
+1. Open website https://www.saucedemo.com/
+2. Do Login & verify home page
+3. Click on Item - "Sauce Labs Bike Light"
+4. Verify product details page
+5. Click on add to cart button
+6. Click on cart icon
+7. Verify Cart Page
+8. Click on Continue Shopping
+9. Click on Item - "Sauce Labs Bolt T-Shirt"
+10. Verify product details page
+11. Click on add to cart button
+12. Click on cart icon
+13. Verify two items displayed on cart page
+14. Click on Checkout
+15. Fill checkout details & click on Continue
+16. Verify Overview Page
+17.  Click on finish
+18. Verify order confirmation page
+====================================================================
+
+
+        Cucumber_FrameWork:
+
+========== HomeAssignment - 1 ==============
+1. Open website https://www.saucedemo.com/
+2. Do Login & verify home page
+3. Click on Item - "Sauce Labs Bike Light"
+4. Verify product details page
+5. Click on add to cart button
+6. Click on cart icon
+7. Verify Cart Page
+9. Click on Checkout button
+10. Fill checkout details & click on Continue
+11. Verify Review Page
+12. Click on Cancel button
+13. Verify user is on home page
+14. Click on cart icon
+15. Verify one item should be available in Cart
+
+
+========== HomeAssignment - 2 ==============
+1. Open website https://www.saucedemo.com/
+2. Do Login & verify home page
+3. Click on Item - "Sauce Labs Bike Light"
+4. Verify product details page
+5. Click on add to cart button
+6. Click on cart icon
+7. Verify Cart Page
+9. Click on Remove button And Click on Checkout button
+10. Fill checkout details & click on Continue
+11. Verify Review Page
+12. Click on finish
+13. Verify order confirmation page
+
+
+========== HomeAssignment - 3 ==============
+1. Open website https://www.saucedemo.com/
+2. Do Login & verify home page
+3. Click on Item - "Sauce Labs Bike Light"
+4. Verify product details page
+5. Click on add to cart button
+6. Click on cart icon
+7. Verify Cart Page
+9. Click on Burger Menu
+10. Click on logout
+11. Do Login Again & Verify home page
+12. Click on cart icon
+13. Verify one item should be available in Cart

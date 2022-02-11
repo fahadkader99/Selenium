@@ -49,12 +49,5 @@ public abstract class Base_Test  {
         DriverUtils.getDriver().close();
     }
 
-/*    public void getScreenShotPath(String testCaseName, WebDriver driver) throws IOException {
-       TakesScreenshot ts = (TakesScreenshot) driver;
-
-       File srcFile = ts.getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(srcFile, new File("target/screenshot/"+testCaseName+".png"));
-    }*/
-
 
 }

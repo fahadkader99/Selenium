@@ -1,0 +1,1499 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-11T07:16:20.040Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2765545000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.steps.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 290000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.hooks.MyHooks.startUp2()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify user can place order",
+        "description": "",
+        "id": "this-feature-is-to-test-end-to-end-flow-of-the-website.;verify-user-can-place-order",
+        "after": [
+          {
+            "result": {
+              "duration": 99000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.hooks.MyHooks.cleanUp2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 546834000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.steps.Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 137378000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user open websites",
+            "match": {
+              "location": "automation.steps.LoginSteps.user_open_websites()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 361133000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user do login",
+            "match": {
+              "location": "automation.steps.LoginSteps.user_do_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36635000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify user is on homepage",
+            "match": {
+              "location": "automation.steps.HomepageSteps.verify_user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 224223000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on any item",
+            "match": {
+              "location": "automation.steps.HomepageSteps.user_click_on_any_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51142000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify user is on product detail page",
+            "match": {
+              "location": "automation.steps.ProductDetailSteps.verify_user_is_on_product_detail_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 219722000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on add to cart button",
+            "match": {
+              "location": "automation.steps.ProductDetailSteps.user_clicks_on_add_to_cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222037000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on cart icon",
+            "match": {
+              "location": "automation.steps.ProductDetailSteps.click_on_cart_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32431000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify user is on cart page",
+            "match": {
+              "location": "automation.steps.CartSteps.verify_user_is_on_cart_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 222282000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on checkout button",
+            "match": {
+              "location": "automation.steps.CartSteps.user_clicks_on_checkout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49783000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify user is on checkout page",
+            "match": {
+              "location": "automation.steps.CheckoutSteps.verify_user_is_on_checkout_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65810000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user fill all details on checkout page",
+            "match": {
+              "location": "automation.steps.CheckoutSteps.user_fill_all_details_on_checkout_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 224091000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click on continue button on checkout page",
+            "match": {
+              "location": "automation.steps.CheckoutSteps.click_on_continue_button_on_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36098000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "verify user is on review page",
+            "match": {
+              "location": "automation.steps.ReviewSteps.verify_user_is_on_review_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 390250000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click on finish button",
+            "match": {
+              "location": "automation.steps.ReviewSteps.user_click_on_finish_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27556000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "verify user is on order confirmation page",
+            "match": {
+              "location": "automation.steps.OrderConfirmationSteps.verify_user_is_on_order_confirmation_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8139000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "verify order confirmation message",
+            "match": {
+              "location": "automation.steps.OrderConfirmationSteps.verify_order_confirmation_message()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to test end to end flow of the website.",
+    "description": "  Dev - Fahad\n  Qa - Jahan\n  Reviewed By - Chirag",
+    "id": "this-feature-is-to-test-end-to-end-flow-of-the-website.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/EndToEndTest.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-11T07:16:25.733Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2573511000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.steps.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 205000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.hooks.MyHooks.startUp1()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user is able to see there product on the cart",
+        "description": "",
+        "id": "this-feature-is-to-test-the-cart-functionality-of-the-app;verify-user-is-able-to-see-there-product-on-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 103000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.hooks.MyHooks.cleanUp1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 557471000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.steps.Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123967000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open websites",
+            "match": {
+              "location": "automation.steps.LoginSteps.user_open_websites()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 423091000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user do login",
+            "match": {
+              "location": "automation.steps.LoginSteps.user_do_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35392000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify user is on homepage",
+            "match": {
+              "location": "automation.steps.HomepageSteps.verify_user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 220273000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on item Sauce Labs Bike Light",
+            "match": {
+              "location": "automation.steps.HomepageSteps.user_click_on_item_sauce_labs_bike_light()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32719000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify user is on Bike Light product detail page",
+            "match": {
+              "location": "automation.steps.BikeLightSteps.verify_user_is_on_bike_light_product_detail_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 215270000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on Bike Light add to cart button",
+            "match": {
+              "location": "automation.steps.BikeLightSteps.user_clicks_on_bike_light_add_to_cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 221995000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on Bike Light cart icon",
+            "match": {
+              "location": "automation.steps.BikeLightSteps.user_clicks_on_bike_light_cart_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32566000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify user is on cart page",
+            "match": {
+              "location": "automation.steps.CartSteps.verify_user_is_on_cart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220347000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on checkout button",
+            "match": {
+              "location": "automation.steps.CartSteps.user_clicks_on_checkout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46409000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify user is on checkout page",
+            "match": {
+              "location": "automation.steps.CheckoutSteps.verify_user_is_on_checkout_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63596000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user fill all details on checkout page",
+            "match": {
+              "location": "automation.steps.CheckoutSteps.user_fill_all_details_on_checkout_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 227283000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on continue button on checkout page",
+            "match": {
+              "location": "automation.steps.CheckoutSteps.click_on_continue_button_on_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32977000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify user is on review page",
+            "match": {
+              "location": "automation.steps.ReviewSteps.verify_user_is_on_review_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 226389000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on cancel button",
+            "match": {
+              "location": "automation.steps.ReviewSteps.user_clicks_on_cancel_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29502000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify user is on homepage",
+            "match": {
+              "location": "automation.steps.HomepageSteps.verify_user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 220351000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks on homepage cart icon",
+            "match": {
+              "location": "automation.steps.HomepageSteps.user_clicks_on_homepage_cart_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9127000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "verify one item should be available in Cart",
+            "match": {
+              "location": "automation.steps.CartSteps.verify_one_item_should_be_available_in_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Assignment"
+          }
+        ]
+      }
+    ],
+    "name": "This Feature is to test the cart functionality of the app",
+    "description": "",
+    "id": "this-feature-is-to-test-the-cart-functionality-of-the-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/HomeAssignment_1.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-11T07:16:31.256Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2433512000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.steps.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 175000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.hooks.MyHooks.startUp1()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user is able to add and remove item from there cart and application behave as expected.",
+        "description": "",
+        "id": "this-feature-is-is-to-test-that-user-is-able-to-add-item-in-cart-and-also-able-to-remove-item-from-there-cart-successfully;verify-user-is-able-to-add-and-remove-item-from-there-cart-and-application-behave-as-expected.",
+        "after": [
+          {
+            "result": {
+              "duration": 101000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.hooks.MyHooks.cleanUp1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 551402000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.steps.Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 130829000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user open websites",
+            "match": {
+              "location": "automation.steps.LoginSteps.user_open_websites()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 333405000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user do login",
+            "match": {
+              "location": "automation.steps.LoginSteps.user_do_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35974000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify user is on homepage",
+            "match": {
+              "location": "automation.steps.HomepageSteps.verify_user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 222595000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on item Sauce Labs Bike Light",
+            "match": {
+              "location": "automation.steps.HomepageSteps.user_click_on_item_sauce_labs_bike_light()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify user is on Bike Light product detail page",
+            "match": {
+              "location": "automation.steps.BikeLightSteps.verify_user_is_on_bike_light_product_detail_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 218872000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on Bike Light add to cart button",
+            "match": {
+              "location": "automation.steps.BikeLightSteps.user_clicks_on_bike_light_add_to_cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220584000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on Bike Light cart icon",
+            "match": {
+              "location": "automation.steps.BikeLightSteps.user_clicks_on_bike_light_cart_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32803000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify user is on cart page",
+            "match": {
+              "location": "automation.steps.CartSteps.verify_user_is_on_cart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214213000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on Bike Light remove button",
+            "match": {
+              "location": "automation.steps.CartSteps.user_clicks_on_bike_light_remove_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 224946000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on checkout button",
+            "match": {
+              "location": "automation.steps.CartSteps.user_clicks_on_checkout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64062000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user fill all details on checkout page",
+            "match": {
+              "location": "automation.steps.CheckoutSteps.user_fill_all_details_on_checkout_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226268000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click on continue button on checkout page",
+            "match": {
+              "location": "automation.steps.CheckoutSteps.click_on_continue_button_on_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33820000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify user is on review page",
+            "match": {
+              "location": "automation.steps.ReviewSteps.verify_user_is_on_review_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 384129000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click on finish button",
+            "match": {
+              "location": "automation.steps.ReviewSteps.user_click_on_finish_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29603000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "verify user is on order confirmation page",
+            "match": {
+              "location": "automation.steps.OrderConfirmationSteps.verify_user_is_on_order_confirmation_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Assignment"
+          }
+        ]
+      }
+    ],
+    "name": "This Feature is is to test that user is able to add item in cart and also able to remove item from there cart successfully",
+    "description": "",
+    "id": "this-feature-is-is-to-test-that-user-is-able-to-add-item-in-cart-and-also-able-to-remove-item-from-there-cart-successfully",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/HomeAssignment_2.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-11T07:16:36.655Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2506955000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.steps.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 106000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.hooks.MyHooks.startUp1()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify user is able to continue the order after logout",
+        "description": "",
+        "id": "this-feature-is-to-test-that-user-is-able-to-login-add-item-to-cart--logout-and-login-again-to-continue-the-order.;verify-user-is-able-to-continue-the-order-after-logout",
+        "after": [
+          {
+            "result": {
+              "duration": 77000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.hooks.MyHooks.cleanUp1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 545977000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.steps.Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 127059000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user open websites",
+            "match": {
+              "location": "automation.steps.LoginSteps.user_open_websites()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 330083000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user do login",
+            "match": {
+              "location": "automation.steps.LoginSteps.user_do_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34956000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify user is on homepage",
+            "match": {
+              "location": "automation.steps.HomepageSteps.verify_user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 222382000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on item Sauce Labs Bike Light",
+            "match": {
+              "location": "automation.steps.HomepageSteps.user_click_on_item_sauce_labs_bike_light()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33323000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify user is on Bike Light product detail page",
+            "match": {
+              "location": "automation.steps.BikeLightSteps.verify_user_is_on_bike_light_product_detail_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 213932000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on Bike Light add to cart button",
+            "match": {
+              "location": "automation.steps.BikeLightSteps.user_clicks_on_bike_light_add_to_cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 221064000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on Bike Light cart icon",
+            "match": {
+              "location": "automation.steps.BikeLightSteps.user_clicks_on_bike_light_cart_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33611000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify user is on cart page",
+            "match": {
+              "location": "automation.steps.CartSteps.verify_user_is_on_cart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218565000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on burger menu",
+            "match": {
+              "location": "automation.steps.CartSteps.user_clicks_on_burger_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 224450000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on logout link",
+            "match": {
+              "location": "automation.steps.CartSteps.user_click_on_logout_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 272925000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user do login",
+            "match": {
+              "location": "automation.steps.LoginSteps.user_do_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31255000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify user is on homepage",
+            "match": {
+              "location": "automation.steps.HomepageSteps.verify_user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 220174000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on homepage cart icon",
+            "match": {
+              "location": "automation.steps.HomepageSteps.user_clicks_on_homepage_cart_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9096000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify one item should be available in Cart",
+            "match": {
+              "location": "automation.steps.CartSteps.verify_one_item_should_be_available_in_cart()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Assignment"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to test that user is able to login add item to cart, logout and login again to continue the order.",
+    "description": "",
+    "id": "this-feature-is-to-test-that-user-is-able-to-login-add-item-to-cart--logout-and-login-again-to-continue-the-order.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/HomeAssignment_3.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-11T07:16:41.910Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2488869000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify user can login.",
+        "description": "",
+        "id": "this-feature-file-to-test-the-functionality-related-to-login.;verify-user-can-login.",
+        "after": [
+          {
+            "result": {
+              "duration": 535619000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.steps.Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 116747000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open websites",
+            "match": {
+              "location": "automation.steps.LoginSteps.user_open_websites()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 326597000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user do login",
+            "match": {
+              "location": "automation.steps.LoginSteps.user_do_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34965000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify user is on homepage",
+            "match": {
+              "location": "automation.steps.HomepageSteps.verify_user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          }
+        ]
+      }
+    ],
+    "name": "This feature file to test the functionality related to login.",
+    "description": "",
+    "id": "this-feature-file-to-test-the-functionality-related-to-login.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Login.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-11T07:16:45.418Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3369597000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.steps.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 110000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.hooks.MyHooks.startUp3()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify user can select multiple items and place order.",
+        "description": "",
+        "id": "this-feature-is-to-test-user-is-able-to-oder-multiple-items-on-the-website.;verify-user-can-select-multiple-items-and-place-order.",
+        "after": [
+          {
+            "result": {
+              "duration": 100000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.hooks.MyHooks.cleanUp3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 549927000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.steps.Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 134300000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user open websites",
+            "match": {
+              "location": "automation.steps.LoginSteps.user_open_websites()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 374322000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user do login",
+            "match": {
+              "location": "automation.steps.LoginSteps.user_do_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31372000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "verify user is on homepage",
+            "match": {
+              "location": "automation.steps.HomepageSteps.verify_user_is_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 220023000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on item Sauce Labs Bike Light",
+            "match": {
+              "location": "automation.steps.HomepageSteps.user_click_on_item_sauce_labs_bike_light()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32662000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verify user is on Bike Light product detail page",
+            "match": {
+              "location": "automation.steps.BikeLightSteps.verify_user_is_on_bike_light_product_detail_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 214701000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on Bike Light add to cart button",
+            "match": {
+              "location": "automation.steps.BikeLightSteps.user_clicks_on_bike_light_add_to_cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 221896000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on Bike Light cart icon",
+            "match": {
+              "location": "automation.steps.BikeLightSteps.user_clicks_on_bike_light_cart_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32883000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify user is on cart page",
+            "match": {
+              "location": "automation.steps.CartSteps.verify_user_is_on_cart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227255000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on continue shopping",
+            "match": {
+              "location": "automation.steps.CartSteps.user_clicks_on_continue_shopping()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 219994000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click on item Sauce Labs Bolt T-Shirt",
+            "match": {
+              "location": "automation.steps.HomepageSteps.user_click_on_item_sauce_labs_bolt_t_shirt()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11065000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify user is on T-Shirt product detail page",
+            "match": {
+              "location": "automation.steps.TshirtSteps.verify_user_is_on_t_shirt_product_detail_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216015000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks on add to T-Shirt cart button",
+            "match": {
+              "location": "automation.steps.TshirtSteps.user_clicks_on_add_to_t_shirt_cart_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 220493000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on T-Shirt cart icon",
+            "match": {
+              "location": "automation.steps.TshirtSteps.user_clicks_on_t_shirt_cart_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5868000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify two items displayed on cart page",
+            "match": {
+              "location": "automation.steps.CartSteps.verify_two_items_displayed_on_cart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220302000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks on checkout button",
+            "match": {
+              "location": "automation.steps.CartSteps.user_clicks_on_checkout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47355000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "verify user is on checkout page",
+            "match": {
+              "location": "automation.steps.CheckoutSteps.verify_user_is_on_checkout_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63747000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user fill all details on checkout page",
+            "match": {
+              "location": "automation.steps.CheckoutSteps.user_fill_all_details_on_checkout_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 221694000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click on continue button on checkout page",
+            "match": {
+              "location": "automation.steps.CheckoutSteps.click_on_continue_button_on_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33140000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "verify user is on review page",
+            "match": {
+              "location": "automation.steps.ReviewSteps.verify_user_is_on_review_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 393741000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user click on finish button",
+            "match": {
+              "location": "automation.steps.ReviewSteps.user_click_on_finish_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28258000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "verify user is on order confirmation page",
+            "match": {
+              "location": "automation.steps.OrderConfirmationSteps.verify_user_is_on_order_confirmation_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15554000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify order confirmation message",
+            "match": {
+              "location": "automation.steps.OrderConfirmationSteps.verify_order_confirmation_message()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@All"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to test user is able to oder multiple items on the website.",
+    "description": "  Dev - Ashikul Kader\n  Qa - Jahan\n  Reviewed by - Chirag",
+    "id": "this-feature-is-to-test-user-is-able-to-oder-multiple-items-on-the-website.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/SauceDemo_TestNG_UI_Framework2.feature",
+    "tags": [
+      {
+        "name": "@All",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

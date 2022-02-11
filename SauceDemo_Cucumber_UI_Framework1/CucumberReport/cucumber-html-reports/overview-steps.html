@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Cucumber Execution Report</td>
+              <td>1</td>
+            <td>11 Feb 2022, 02:17</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Duration</th>
+            <th>Average</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">automation.hooks.MyHooks.cleanUp1()</td>
+              <td>3</td>
+              <td class="duration" data-value="281000">000ms</td>
+              <td class="duration" data-value="93666">000ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.hooks.MyHooks.cleanUp2()</td>
+              <td>1</td>
+              <td class="duration" data-value="99000">000ms</td>
+              <td class="duration" data-value="99000">000ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.hooks.MyHooks.cleanUp3()</td>
+              <td>1</td>
+              <td class="duration" data-value="100000">000ms</td>
+              <td class="duration" data-value="100000">000ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.hooks.MyHooks.startUp1()</td>
+              <td>3</td>
+              <td class="duration" data-value="486000">000ms</td>
+              <td class="duration" data-value="162000">000ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.hooks.MyHooks.startUp2()</td>
+              <td>1</td>
+              <td class="duration" data-value="290000">000ms</td>
+              <td class="duration" data-value="290000">000ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.hooks.MyHooks.startUp3()</td>
+              <td>1</td>
+              <td class="duration" data-value="110000">000ms</td>
+              <td class="duration" data-value="110000">000ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.BikeLightSteps.user_clicks_on_bike_light_add_to_cart_button()</td>
+              <td>4</td>
+              <td class="duration" data-value="862775000">862ms</td>
+              <td class="duration" data-value="215693750">215ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.BikeLightSteps.user_clicks_on_bike_light_cart_icon()</td>
+              <td>4</td>
+              <td class="duration" data-value="885539000">885ms</td>
+              <td class="duration" data-value="221384750">221ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.BikeLightSteps.verify_user_is_on_bike_light_product_detail_page()</td>
+              <td>4</td>
+              <td class="duration" data-value="130704000">130ms</td>
+              <td class="duration" data-value="32676000">032ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.CartSteps.user_click_on_logout_link()</td>
+              <td>1</td>
+              <td class="duration" data-value="224450000">224ms</td>
+              <td class="duration" data-value="224450000">224ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.CartSteps.user_clicks_on_bike_light_remove_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="214213000">214ms</td>
+              <td class="duration" data-value="214213000">214ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.CartSteps.user_clicks_on_burger_menu()</td>
+              <td>1</td>
+              <td class="duration" data-value="218565000">218ms</td>
+              <td class="duration" data-value="218565000">218ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.CartSteps.user_clicks_on_checkout_button()</td>
+              <td>4</td>
+              <td class="duration" data-value="887877000">887ms</td>
+              <td class="duration" data-value="221969250">221ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.CartSteps.user_clicks_on_continue_shopping()</td>
+              <td>1</td>
+              <td class="duration" data-value="227255000">227ms</td>
+              <td class="duration" data-value="227255000">227ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.CartSteps.verify_one_item_should_be_available_in_cart()</td>
+              <td>2</td>
+              <td class="duration" data-value="18223000">018ms</td>
+              <td class="duration" data-value="9111500">009ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.CartSteps.verify_two_items_displayed_on_cart_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="5868000">005ms</td>
+              <td class="duration" data-value="5868000">005ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.CartSteps.verify_user_is_on_cart_page()</td>
+              <td>5</td>
+              <td class="duration" data-value="164294000">164ms</td>
+              <td class="duration" data-value="32858800">032ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.CheckoutSteps.click_on_continue_button_on_checkout_page()</td>
+              <td>4</td>
+              <td class="duration" data-value="899336000">899ms</td>
+              <td class="duration" data-value="224834000">224ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.CheckoutSteps.user_fill_all_details_on_checkout_page()</td>
+              <td>4</td>
+              <td class="duration" data-value="257215000">257ms</td>
+              <td class="duration" data-value="64303750">064ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.CheckoutSteps.verify_user_is_on_checkout_page()</td>
+              <td>3</td>
+              <td class="duration" data-value="143547000">143ms</td>
+              <td class="duration" data-value="47849000">047ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.HomepageSteps.user_click_on_any_item()</td>
+              <td>1</td>
+              <td class="duration" data-value="224223000">224ms</td>
+              <td class="duration" data-value="224223000">224ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.HomepageSteps.user_click_on_item_sauce_labs_bike_light()</td>
+              <td>4</td>
+              <td class="duration" data-value="885273000">885ms</td>
+              <td class="duration" data-value="221318250">221ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.HomepageSteps.user_click_on_item_sauce_labs_bolt_t_shirt()</td>
+              <td>1</td>
+              <td class="duration" data-value="219994000">219ms</td>
+              <td class="duration" data-value="219994000">219ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.HomepageSteps.user_clicks_on_homepage_cart_icon()</td>
+              <td>2</td>
+              <td class="duration" data-value="440525000">440ms</td>
+              <td class="duration" data-value="220262500">220ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.HomepageSteps.verify_user_is_on_homepage()</td>
+              <td>8</td>
+              <td class="duration" data-value="270051000">270ms</td>
+              <td class="duration" data-value="33756375">033ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.Hooks.cleanUp()</td>
+              <td>6</td>
+              <td class="duration" data-value="3287230000">3s 287ms</td>
+              <td class="duration" data-value="547871666">547ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.Hooks.setUp()</td>
+              <td>6</td>
+              <td class="duration" data-value="16137989000">16s 137ms</td>
+              <td class="duration" data-value="2689664833">2s 689ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.LoginSteps.user_do_login()</td>
+              <td>7</td>
+              <td class="duration" data-value="2421556000">2s 421ms</td>
+              <td class="duration" data-value="345936571">345ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.LoginSteps.user_open_websites()</td>
+              <td>6</td>
+              <td class="duration" data-value="770280000">770ms</td>
+              <td class="duration" data-value="128380000">128ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.OrderConfirmationSteps.verify_order_confirmation_message()</td>
+              <td>2</td>
+              <td class="duration" data-value="23693000">023ms</td>
+              <td class="duration" data-value="11846500">011ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.OrderConfirmationSteps.verify_user_is_on_order_confirmation_page()</td>
+              <td>3</td>
+              <td class="duration" data-value="85417000">085ms</td>
+              <td class="duration" data-value="28472333">028ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.ProductDetailSteps.click_on_cart_icon()</td>
+              <td>1</td>
+              <td class="duration" data-value="222037000">222ms</td>
+              <td class="duration" data-value="222037000">222ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.ProductDetailSteps.user_clicks_on_add_to_cart_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="219722000">219ms</td>
+              <td class="duration" data-value="219722000">219ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.ProductDetailSteps.verify_user_is_on_product_detail_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="51142000">051ms</td>
+              <td class="duration" data-value="51142000">051ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.ReviewSteps.user_click_on_finish_button()</td>
+              <td>3</td>
+              <td class="duration" data-value="1168120000">1s 168ms</td>
+              <td class="duration" data-value="389373333">389ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.ReviewSteps.user_clicks_on_cancel_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="226389000">226ms</td>
+              <td class="duration" data-value="226389000">226ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.ReviewSteps.verify_user_is_on_review_page()</td>
+              <td>4</td>
+              <td class="duration" data-value="136035000">136ms</td>
+              <td class="duration" data-value="34008750">034ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.TshirtSteps.user_clicks_on_add_to_t_shirt_cart_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="216015000">216ms</td>
+              <td class="duration" data-value="216015000">216ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.TshirtSteps.user_clicks_on_t_shirt_cart_icon()</td>
+              <td>1</td>
+              <td class="duration" data-value="220493000">220ms</td>
+              <td class="duration" data-value="220493000">220ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.TshirtSteps.verify_user_is_on_t_shirt_product_detail_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="11065000">011ms</td>
+              <td class="duration" data-value="11065000">011ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>40</td>
+            <td>109</td>
+            <td class="duration">32s 378ms</td>
+            <td class="duration">297ms</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
