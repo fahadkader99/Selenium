@@ -1,6 +1,7 @@
 package Functions;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,7 +12,7 @@ public class Web_Links {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver","src/test/resources/driver/chromedriver");
         WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 
         String page = "https://www.rahulshettyacademy.com/AutomationPractice/";
         driver.get(page);
@@ -32,8 +33,9 @@ public class Web_Links {
         // 3. count the links of the 1st columns on the footer ----- since the column is under the footerDriver, we can go from there
 
         WebElement columnOneFooterDriver = footerDriver.findElement(By.xpath("//table/tbody/tr/td[1]/ul"));
-        int firstColumnLinks = columnOneFooterDriver.findElements(By.tagName("a")).size();
-        System.out.println("\nNum of Links in 1st column of the Footer: "+ firstColumnLinks);
+//        int firstColumnLinks = columnOneFooterDriver.findElements(By.tagName("a")).size();
+//        System.out.println("\nNum of Links in 1st column of the Footer: "+ firstColumnLinks);
+        System.out.println(columnOneFooterDriver.findElements(By.tagName("a")).size());
 
 
         /*
@@ -41,9 +43,10 @@ public class Web_Links {
                 we will follow the process of counting the numbers of links and click those individual links, this way test will pass many number of links 10,20 || 50
          */
 
-        for (int i =1; i<firstColumnLinks;i++){                                             // taking i = 1 coz 1st link is not working
+        for (int i =1; i<columnOneFooterDriver.findElements(By.tagName("a")).size();i++){                                             // taking i = 1 coz 1st link is not working
 
-            columnOneFooterDriver.findElements(By.tagName("a")).get(i).click();             // it will get into loop and get the i index each time and click until loop ends
+            String clickLinkTab = Keys.chord(Keys.CONTROL,Keys.ENTER);              // hitting ctrl + enter
+            columnOneFooterDriver.findElements(By.tagName("a")).get(i).sendKeys(clickLinkTab);         // by sending keys and hitting Ctrl + enter , it will open all the links in separate tab
 
         }
 
