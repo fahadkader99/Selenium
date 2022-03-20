@@ -3,18 +3,19 @@ package Browser_Functions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 import java.util.List;
 
-public class WebLinks_getAll {
+public class WebLinks_getAll_getTitles {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver");
-        WebDriver driver = new ChromeDriver();
+        System.setProperty("webdriver.gecko.driver", "src/test/resources/driver/geckodriver");
+        WebDriver driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(59));
 
-        driver.get("http://ebay.com/");
+//        driver.get("http://ebay.com/");
+        driver.get("http://apple.com/");
 
         /*
 
