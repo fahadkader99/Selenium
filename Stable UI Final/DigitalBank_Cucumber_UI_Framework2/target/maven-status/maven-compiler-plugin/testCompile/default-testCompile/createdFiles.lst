@@ -1,0 +1,16 @@
+automation/pages/View_SavingsPage.class
+automation/steps/View_SavingsPage_Steps.class
+automation/steps/New_SavingsPage_Steps.class
+automation/steps/Hooks.class
+automation/utils/Common_Methods.class
+automation/pages/New_SavingsPage.class
+automation/runner/ManageSavingsTest.class
+automation/utils/PropertyReader.class
+automation/runner/SavingsAccTest.class
+automation/pages/HomePage.class
+automation/steps/Login_steps.class
+automation/steps/HomePage_Steps.class
+automation/pages/BasePage.class
+automation/runner/LoginTest.class
+automation/utils/DriverUtils.class
+automation/pages/LoginPage.class

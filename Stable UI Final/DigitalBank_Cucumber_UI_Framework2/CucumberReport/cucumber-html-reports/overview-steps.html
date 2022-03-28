@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Cucumber Execution Report</td>
+              <td>1</td>
+            <td>28 Mar 2022, 01:03</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Duration</th>
+            <th>Average</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">automation.steps.HomePage_Steps.userClicksOnDropdown(java.lang.String)</td>
+              <td>13</td>
+              <td class="duration" data-value="596787000">596ms</td>
+              <td class="duration" data-value="45906692">045ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.HomePage_Steps.userSelectOption(java.lang.String)</td>
+              <td>11</td>
+              <td class="duration" data-value="5131611000">5s 131ms</td>
+              <td class="duration" data-value="466510090">466ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.HomePage_Steps.verifyAreAvailable(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="1049462000">1s 049ms</td>
+              <td class="duration" data-value="524731000">524ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.HomePage_Steps.verifyUserIsNavigatedToHomePage()</td>
+              <td>13</td>
+              <td class="duration" data-value="1459956000">1s 459ms</td>
+              <td class="duration" data-value="112304307">112ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.Hooks.closeUp(io.cucumber.java.Scenario)</td>
+              <td>13</td>
+              <td class="duration" data-value="9947290000">9s 947ms</td>
+              <td class="duration" data-value="765176153">765ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.Hooks.setUp()</td>
+              <td>13</td>
+              <td class="duration" data-value="16309883000">16s 309ms</td>
+              <td class="duration" data-value="1254606384">1s 254ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.Login_steps.userClicksOnTheSignInButton()</td>
+              <td>13</td>
+              <td class="duration" data-value="8517002000">8s 517ms</td>
+              <td class="duration" data-value="655154000">655ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.Login_steps.userInputValidCredentials()</td>
+              <td>13</td>
+              <td class="duration" data-value="2568861000">2s 568ms</td>
+              <td class="duration" data-value="197604692">197ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.Login_steps.userOpenWebsite()</td>
+              <td>13</td>
+              <td class="duration" data-value="7325954000">7s 325ms</td>
+              <td class="duration" data-value="563534923">563ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.Login_steps.verifyUserIsAtTheLoginPage()</td>
+              <td>13</td>
+              <td class="duration" data-value="276865000">276ms</td>
+              <td class="duration" data-value="21297307">021ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.New_SavingsPage_Steps.userClicksOnSubmitButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="637172000">637ms</td>
+              <td class="duration" data-value="637172000">637ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.New_SavingsPage_Steps.userEnterTestNameOnTheAccountNameField()</td>
+              <td>1</td>
+              <td class="duration" data-value="49599000">049ms</td>
+              <td class="duration" data-value="49599000">049ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.New_SavingsPage_Steps.userIsOnCreateSavingsPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="60132000">060ms</td>
+              <td class="duration" data-value="60132000">060ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.New_SavingsPage_Steps.userSelectJoint()</td>
+              <td>1</td>
+              <td class="duration" data-value="38487000">038ms</td>
+              <td class="duration" data-value="38487000">038ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.New_SavingsPage_Steps.userSelectSavingsAccountType()</td>
+              <td>1</td>
+              <td class="duration" data-value="37504000">037ms</td>
+              <td class="duration" data-value="37504000">037ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.New_SavingsPage_Steps.userShouldBeAbleToInput$ToBeDeposited(int)</td>
+              <td>1</td>
+              <td class="duration" data-value="59100000">059ms</td>
+              <td class="duration" data-value="59100000">059ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.New_SavingsPage_Steps.userShouldBeAbleToInputToBeDeposited(java.lang.String)</td>
+              <td>5</td>
+              <td class="duration" data-value="208402000">208ms</td>
+              <td class="duration" data-value="41680400">041ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.New_SavingsPage_Steps.userShouldBeAbleToSeeAccountNameField()</td>
+              <td>1</td>
+              <td class="duration" data-value="13908000">013ms</td>
+              <td class="duration" data-value="13908000">013ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.New_SavingsPage_Steps.userShouldBeAbleToSeeLineInitialDepositAmount()</td>
+              <td>5</td>
+              <td class="duration" data-value="126698000">126ms</td>
+              <td class="duration" data-value="25339600">025ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.New_SavingsPage_Steps.userShouldBeAbleToSeeSavingsAccountFormFields()</td>
+              <td>2</td>
+              <td class="duration" data-value="35763000">035ms</td>
+              <td class="duration" data-value="17881500">017ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.New_SavingsPage_Steps.userShouldBeAbleToSeeSelectAccountOwnership()</td>
+              <td>2</td>
+              <td class="duration" data-value="33513000">033ms</td>
+              <td class="duration" data-value="16756500">016ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.New_SavingsPage_Steps.userShouldBeRedirectedToCreateSavingsPage()</td>
+              <td>10</td>
+              <td class="duration" data-value="459745000">459ms</td>
+              <td class="duration" data-value="45974500">045ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.New_SavingsPage_Steps.user_should_sends_the_following_details(io.cucumber.datatable.DataTable)</td>
+              <td>1</td>
+              <td class="duration" data-value="274535000">274ms</td>
+              <td class="duration" data-value="274535000">274ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.New_SavingsPage_Steps.verifyIsVisible(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="75789000">075ms</td>
+              <td class="duration" data-value="37894500">037ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.New_SavingsPage_Steps.verifyIsVisibleAtNewSavingsPage(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="79585000">079ms</td>
+              <td class="duration" data-value="39792500">039ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">automation.steps.View_SavingsPage_Steps.verifyUserIsRedirectedToTheViewSavingsPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="17367000">017ms</td>
+              <td class="duration" data-value="17367000">017ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>26</td>
+            <td>154</td>
+            <td class="duration">55s 390ms</td>
+            <td class="duration">359ms</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

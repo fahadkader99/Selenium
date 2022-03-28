@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-10T08:07:47Z" name="Default suite" finished-at="2022-03-10T08:07:53Z" duration-ms="5627">
+    <groups>
+    </groups>
+    <test started-at="2022-03-10T08:07:47Z" name="Default test" finished-at="2022-03-10T08:07:53Z" duration-ms="5627">
+      <class name="YouTubeLinks">
+        <test-method signature="youtubeLinks()[pri:0, instance:YouTubeLinks@3406472c]" started-at="2022-03-10T03:07:47Z" name="youtubeLinks" finished-at="2022-03-10T03:07:53Z" duration-ms="5618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- youtubeLinks -->
+      </class> <!-- YouTubeLinks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

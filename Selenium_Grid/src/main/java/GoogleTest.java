@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,6 +9,7 @@ import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
 
 public class GoogleTest {
 
@@ -21,11 +23,19 @@ public class GoogleTest {
 
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setBrowserName("chrome");
-        caps.setPlatform(Platform.BIG_SUR);
+  /*      caps.setPlatform(Platform.BIG_SUR);
         caps.setCapability(CapabilityType.ACCEPT_SSL_CERTS,true);           // there are lots of capability options available
+        caps.setCapability(CapabilityType.BROWSER_NAME,"chrome");*/
 
 
 
         WebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.179:4444"), caps );
+        driver.get("https://google.com");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        System.out.println(driver.getTitle());
+        driver.findElement(By.name("q")).sendKeys("Ashikul Kader Fahad ");
+        driver.close();
+
+
     }
 }

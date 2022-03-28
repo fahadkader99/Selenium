@@ -3,6 +3,7 @@ package Browser_Functions.locator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
 import java.time.Duration;
 
@@ -43,8 +44,10 @@ public class RahulShetty {
         driver.findElement(By.xpath("//button[@class='submit signInBtn']")).click();    // > Now logged in
         Thread.sleep(2000);
         String loggedIn = driver.findElement(By.xpath("//p[contains(text(),'You are successfully logged in.')]")).getText();
-
         System.out.println(loggedIn);
+        String title = driver.findElement(By.xpath("//div[@class='login-container']/h2")).getText();
+        System.out.println(title);
+        driver.findElement(By.className("logout-btn")).click();
 
         // now clicking logout
         driver.findElement(By.cssSelector("button[class='logout-btn']")).click();

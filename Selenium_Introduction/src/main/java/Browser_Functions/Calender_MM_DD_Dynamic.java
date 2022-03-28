@@ -55,6 +55,6 @@ public class Calender_MM_DD_Dynamic {
         }
         System.out.println("Month & Date Clicked Successful");
 
-        driver.close();
+        //driver.close();
     }
 }

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import javax.print.DocFlavor;
@@ -18,7 +19,9 @@ import java.time.Duration;
 import java.util.List;
 
 public class Broken_LinksOrURL {
-    public static void main(String[] args) throws IOException {
+
+    @Test
+    public static void BrokenLinks() throws IOException {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

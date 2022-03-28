@@ -1,0 +1,11 @@
+> build the framework for UI and API (1 framework) from scratch. Follow the process:
+
+
+- create a maven project.
+- add all necessary dependencies. Junit, Cucumber, Selenium, Data Base
+- Write at least 5 different features with min 2 test cases for each scenario. 1 positive 1 negative. Do that for each UI and API.
+- Validations should finish with DB validation.
+- Create regression and smoke runners.
+- Create cucumber reports.
+
+setup smoke test, regression test on Jenkins for each(will cover together)

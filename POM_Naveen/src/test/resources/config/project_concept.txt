@@ -1,0 +1,16 @@
+# Most asked interview questions Concepts::::
+
+
+oop:
+- Inheritance
+- Method overloading
+- method overriding
+- Encapsulation: for defining the page objects
+- Abstract class
+
+
+Java generics
+Wrapper Methods - Generic Pace Actions
+Object creation
+Constructors
+Exception handling
