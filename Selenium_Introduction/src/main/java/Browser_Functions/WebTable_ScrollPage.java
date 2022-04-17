@@ -10,7 +10,7 @@ import org.testng.Assert;
 import java.time.Duration;
 import java.util.List;
 
-public class ScrollPage_WebTable {
+public class WebTable_ScrollPage {
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver");
         WebDriver driver = new ChromeDriver();
