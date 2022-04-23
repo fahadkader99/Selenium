@@ -27,13 +27,6 @@ public class WebLinks_getAll_getTitles {
         System.out.println("Total Links are: "+ allLinks.size());
 
 
-//        for (WebElement total : allLinks){
-//            System.out.println(total.getAttribute("href"));
-//            System.out.println(total.getText());
-//        }
-
-
-
         System.out.println("\nLinks are given below with the Tag\n");
         for (int i = 0; i <allLinks.size();i++){
             System.out.println("Link: "+ allLinks.get(i).getAttribute("Href"));

@@ -28,10 +28,12 @@ public class KeyBoardFunctions {
         // we are performing: (cmd + a) cmd is still down so (cmd + c)
         actions.keyDown(sourceText, Keys.COMMAND).sendKeys("a").sendKeys("c").build().perform();        // text are selected and copied
         Thread.sleep(44000);
+
         WebElement destination = driver.findElement(By.xpath("//*[@id=\"dropZone2\"]/div[2]//div[5]/div[8]/pre/span"));
         actions.keyDown(destination,Keys.COMMAND).sendKeys("a").sendKeys("v").build().perform();    // selecting all and pasting the text
 
-
+        // release the keys
+       // actions.keyUp(Keys.COMMAND);
 
 
 
